@@ -1,0 +1,137 @@
+Making all in mpl
+gmake[1]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2/mpl'
+  CC       src/mplstr.lo
+  CC       src/mpltrmem.lo
+  CC       src/mplenv.lo
+  CC       src/mplmsg.lo
+  CC       src/mplsock.lo
+  CCLD     libmpl.la
+gmake[1]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2/mpl'
+Making all in tools/topo/hwloc/hwloc
+gmake[1]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc'
+Making all in src
+gmake[2]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc/src'
+  CC       topology.lo
+  CC       traversal.lo
+  CC       distances.lo
+  CC       components.lo
+  CC       bind.lo
+  CC       bitmap.lo
+  CC       pci-common.lo
+  CC       diff.lo
+  CC       misc.lo
+  CC       base64.lo
+  CC       topology-noos.lo
+  CC       topology-synthetic.lo
+  CC       topology-custom.lo
+  CC       topology-xml.lo
+  CC       topology-xml-nolibxml.lo
+  CC       topology-xml-libxml.lo
+  CC       topology-darwin.lo
+  CC       topology-x86.lo
+  CCLD     libhwloc_embedded.la
+gmake[2]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc/src'
+Making all in include
+gmake[2]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc/include'
+gmake[2]: Nothing to be done for 'all'.
+gmake[2]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc/include'
+gmake[2]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc'
+gmake[2]: Nothing to be done for 'all-am'.
+gmake[2]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc'
+gmake[1]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2/tools/topo/hwloc/hwloc'
+Making all in .
+gmake[1]: Entering directory '/Users/dojo/mpi_mac/hydra-3.2'
+  CC       utils/alloc/alloc.lo
+  CC       utils/args/args.lo
+  CC       utils/dbg/dbg.lo
+  CC       utils/env/env.lo
+  CC       utils/launch/launch.lo
+  CC       utils/others/others.lo
+  CC       utils/signals/signals.lo
+  CC       utils/sock/sock.lo
+  CC       utils/string/string.lo
+  CC       tools/bootstrap/src/bsci_init.lo
+  CC       tools/bootstrap/src/bsci_finalize.lo
+  CC       tools/bootstrap/src/bsci_launch.lo
+  CC       tools/bootstrap/src/bsci_query_node_list.lo
+  CC       tools/bootstrap/src/bsci_query_proxy_id.lo
+  CC       tools/bootstrap/src/bsci_query_native_int.lo
+  CC       tools/bootstrap/src/bsci_wait.lo
+  CC       tools/bootstrap/src/bsci_env.lo
+  CC       tools/bootstrap/utils/bscu_wait.lo
+  CC       tools/bootstrap/utils/bscu_cb.lo
+  CC       tools/bootstrap/external/external_common.lo
+  CC       tools/bootstrap/external/external_common_launch.lo
+  CC       tools/bootstrap/external/fork_init.lo
+  CC       tools/bootstrap/external/user_init.lo
+  CC       tools/bootstrap/external/manual_init.lo
+  CC       tools/bootstrap/external/rsh_init.lo
+  CC       tools/bootstrap/external/rsh_env.lo
+  CC       tools/bootstrap/external/ssh_init.lo
+  CC       tools/bootstrap/external/ssh.lo
+  CC       tools/bootstrap/external/ssh_env.lo
+  CC       tools/bootstrap/external/ssh_finalize.lo
+  CC       tools/bootstrap/external/slurm_init.lo
+  CC       tools/bootstrap/external/slurm_launch.lo
+  CC       tools/bootstrap/external/slurm_env.lo
+  CC       tools/bootstrap/external/slurm_query_native_int.lo
+  CC       tools/bootstrap/external/slurm_query_node_list.lo
+  CC       tools/bootstrap/external/slurm_query_proxy_id.lo
+  CC       tools/bootstrap/external/ll_init.lo
+  CC       tools/bootstrap/external/ll_launch.lo
+  CC       tools/bootstrap/external/ll_query_native_int.lo
+  CC       tools/bootstrap/external/ll_query_node_list.lo
+  CC       tools/bootstrap/external/ll_query_proxy_id.lo
+  CC       tools/bootstrap/external/ll_env.lo
+  CC       tools/bootstrap/external/lsf_init.lo
+  CC       tools/bootstrap/external/lsf_query_native_int.lo
+  CC       tools/bootstrap/external/lsf_query_node_list.lo
+  CC       tools/bootstrap/external/lsf_env.lo
+  CC       tools/bootstrap/external/sge_init.lo
+  CC       tools/bootstrap/external/sge_query_native_int.lo
+  CC       tools/bootstrap/external/sge_query_node_list.lo
+  CC       tools/bootstrap/external/sge_env.lo
+  CC       tools/bootstrap/external/pbs_init.lo
+  CC       tools/bootstrap/external/pbs_query_native_int.lo
+  CC       tools/bootstrap/external/pbs_query_node_list.lo
+  CC       tools/bootstrap/external/cobalt_init.lo
+  CC       tools/bootstrap/external/cobalt_query_native_int.lo
+  CC       tools/bootstrap/external/cobalt_query_node_list.lo
+  CC       tools/bootstrap/persist/persist_init.lo
+  CC       tools/bootstrap/persist/persist_launch.lo
+  CC       tools/bootstrap/persist/persist_wait.lo
+  CC       tools/ckpoint/ckpoint.lo
+  CC       tools/demux/demux.lo
+  CC       tools/demux/demux_poll.lo
+  CC       tools/demux/demux_select.lo
+  CC       tools/debugger/debugger.lo
+  CC       tools/ftb/hydt_ftb_dummy.lo
+  CC       ui/utils/uiu.lo
+  CC       pm/pmiserv/pmiserv_pmi.lo
+  CC       pm/pmiserv/pmiserv_pmi_v1.lo
+  CC       pm/pmiserv/pmiserv_pmi_v2.lo
+  CC       pm/pmiserv/pmiserv_pmci.lo
+  CC       pm/pmiserv/pmiserv_cb.lo
+  CC       pm/pmiserv/pmiserv_utils.lo
+  CC       pm/pmiserv/common.lo
+  CC       pm/pmiserv/pmi_v2_common.lo
+  CC       tools/bootstrap/persist/hydra_persist-persist_server.o
+  CC       tools/nameserver/hydra_nameserver-hydra_nameserver.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmip.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmip_cb.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmip_utils.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmip_pmi_v1.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmip_pmi_v2.o
+  CC       pm/pmiserv/hydra_pmi_proxy-common.o
+  CC       pm/pmiserv/hydra_pmi_proxy-pmi_v2_common.o
+  CC       ui/mpich/mpiexec.o
+  CC       ui/mpich/utils.o
+  CC       tools/topo/topo.lo
+  CC       tools/topo/hwloc/topo_hwloc.lo
+  CCLD     libhydra.la
+  CCLD     hydra_persist
+  CCLD     hydra_nameserver
+  CCLD     hydra_pmi_proxy
+  CCLD     libpm.la
+  CCLD     mpiexec.hydra
+gmake[1]: Leaving directory '/Users/dojo/mpi_mac/hydra-3.2'

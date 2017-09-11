@@ -1,0 +1,7 @@
+#!/bin/sh
+# When configured within MPICH via PAC_CONFIG_SUBDIR, this file will be sourced
+# by the top-level configure.  This lets us propagate shell variable changes
+# back upstream.
+
+CPPFLAGS="-I/usr/local/opt/python3/include -I/usr/local/opt/lapack/include -I/usr/local/opt/openblas/include -I/usr/local/opt/llvm/include -I/usr/local/opt/sqlite/include -I/usr/local/opt/readline/include -I/usr/local/opt/openssl@1.1/include -I/usr/X11/include  -D_DARWIN_C_SOURCE"
+
